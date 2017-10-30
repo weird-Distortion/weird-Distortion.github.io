@@ -207,7 +207,7 @@ a.btn-top {
     text-shadow: 1px 1px 1px #ff0000;
 }
 
-a.btn-top:hover {
+a.btn-top:hover, a.btn-top:focus {
     font-size: 15px !important;
     color: #ffffff;
     background-color: #ff404c;
