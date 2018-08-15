@@ -35,19 +35,11 @@
     transition: .4s ease-in-out;
 }
 
-.navbar-brand h4 {
-    color: #ff404c;
-    text-shadow: 1px 1px 1px #000;
-    width: auto;
-}
-
-.navbar-text {
-    margin-left: -15px !important;
-    margin-top: -17px !important;
-    padding: 15px 15px;
-    z-index: 1300 !important;
-    position: relative !important;
-    line-height: 25px !important;
+.navbar-header a:hover {
+    /* change after full refactor */
+    font-size: 20px;
+    color: #cc147b;
+    text-decoration: none;
 }
 
 .icon-bar {

@@ -4838,8 +4838,13 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 }
 
 .navbar-text {
-    margin-top: 15px;
-    margin-bottom: 15px
+    /* margin-top: 15px;
+    margin-bottom: 15px */
+    color: #ff404c;
+    text-shadow: 1px 1px 1px #000;
+    width: auto;
+    position: relative;
+    z-index: 1300;
 }
 
 @media (min-width: 768px) {
