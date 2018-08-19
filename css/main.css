@@ -1,3 +1,4 @@
+#top-block:before,
 #about:before,
 #features:before,
 #profits:before,
@@ -48,26 +49,45 @@
 
 .top-content {
     margin-top: 45px;
+    position: relative;
+  /*   display: inline-block; */
 }
 
-.background-slide {
-    width: 100%;
-    background-color: #3D9199;
+.d1, .container {
+    display: inline-block;
+}
+
+/* .background-slide { */
+    #slideshow, .background-slide {
+        width: 100%;
+        background-color: #3D9199;
     /* background-size: cover;
     position: relative;
     box-sizing: border-box; */
-}
-
-#slideshow {
-    position: relative;
-}
-
-#slideshow img {
-    width: 100%;
     filter: blur(3px);
     mix-blend-mode: luminosity;
 }
 
+#slideshow, .presentbl,
+.greetingsInfo, .present-text,
+.top-btn {
+    position: absolute;
+}
+
+#slideshow img {
+    /* width: 100%;
+    filter: blur(3px);
+    mix-blend-mode: luminosity; */
+}
+
+.presentbl {
+    text-align: center;
+    display: block;
+    /* position: relative; */
+   /*  top: 20%;
+   left: 20%; */
+    z-index: 10;
+}
 
 span.ilya {
     /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -93,6 +113,7 @@ span.intro {
     text-shadow: 1px 1px 1px #000; */
 }
 
+/* VERTICAL LINE */
 .greetings:after {
     /* content: '';
     color: #fff;
@@ -109,46 +130,38 @@ span.intro {
 
 
 span.mail {
-    font-family: 'Sequel', serif;
+    /* font-family: 'Sequel', serif;
     font-size: 20px;
     color: #ffffff;
     text-shadow: 1px 1px 1px #000;
     float: left;
     background-color: #ff404c;
-    padding: 5px;
+    padding: 5px; */
 }
 
 span.place {
-    font-family: 'Sequel', serif;
-    font-size: 30px;
-    color: #ffffff;
-    text-shadow: 1px 1px 1px #000;
+   /*  font-family: 'Sequel', serif;
+   font-size: 30px;
+   color: #ffffff;
+   text-shadow: 1px 1px 1px #000; */
 }
 
 .greetings span {
-    position: relative;
-    top: 28px;
+    /* position: relative;
+    top: 28px; */
 }
 
 .greetingsInfo span {
-    position: relative;
-    margin: 5px;
-    top: 28px;
+   /*  position: relative;
+   margin: 5px;
+   top: 28px; */
 }
 
 .presentbl div {
-    display: inline-block;
-    position: relative;
+   /*  display: inline-block;
+   position: relative; */
 }
 
-.presentbl {
-    text-align: center;
-    display: block;
-    position: absolute;
-    top: 20%;
-    left: 20%;
-    z-index: 10;
-}
 
 .present-text {
     /* font-size: 25px;
@@ -163,7 +176,7 @@ span.place {
 }
 
 .present-text:after {
-  /*   content: "\f06b";
+  /* content: "\f06b";
   text-shadow: 1px 1px 10px #000;
   box-shadow: 1px 1px 1px #000;
   font: normal normal normal 14px/1 FontAwesome;
@@ -279,9 +292,9 @@ a.btn-top:hover, a.btn-top:focus {
     line-height: 25px;
 }
 
-.yoda-pic > img {
+.yoda-pic  img {
     width: 95%;
-    position: relative;
+    1position: relative;
     box-shadow: 1px 1px 1px #ff404c;
 }
 
