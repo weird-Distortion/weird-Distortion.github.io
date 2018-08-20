@@ -4841,10 +4841,13 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
     /* margin-top: 15px;
     margin-bottom: 15px */
     color: #ff404c;
-    text-shadow: 1px 1px 1px #000;
+    text-shadow: 0 0 1px #000;
     width: auto;
     position: relative;
     z-index: 1300;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
 }
 
 @media (min-width: 768px) {

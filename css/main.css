@@ -13,34 +13,43 @@
     visibility: hidden;
 }
 
+html {
+    background: #353B40;
+}
+
 .navbar {
-    background-image: linear-gradient(to bottom, #3D9199, #14bbcc);
+    /* background-image: linear-gradient(to bottom, #353B40, #6D747E); */
+    background: #6D747E;
 }
 
 .nav.navbar-nav.navbar-right li a {
-    color: #002a80;
+    color: #BFCBE4;
     font-weight: bold;
     font-size: 20px;
     padding: 15px 15px;
-    text-shadow: 1px 1px 1px #000;
+    text-shadow: 0 0 1px black;
     transition: .4s ease-in-out;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .nav.navbar-nav.navbar-right li a:hover {
-    color: #ff404c;
+    color: #DDBB3B;
     transition: .4s ease-in-out;
 }
 
 .nav.navbar-nav.navbar-right li a:focus {
-    color: #002a80;
+    color: #6D747E;
     transition: .4s ease-in-out;
 }
 
+.navbar-brand {
+    color: #ff404c;
+    text-shadow: 0 0 1px black;
+}
+
 .navbar-header a:hover {
-    /* change after full refactor */
-    font-size: 20px;
-    color: #cc147b;
-    text-decoration: none;
+    color: #DDBB3B;
+    text-shadow: 0 0 1px black;
 }
 
 .icon-bar {
@@ -50,20 +59,15 @@
 .top-content {
     margin-top: 45px;
     position: relative;
-  /*   display: inline-block; */
 }
 
 .d1, .container {
     display: inline-block;
 }
 
-/* .background-slide { */
-    #slideshow, .background-slide {
-        width: 100%;
-        background-color: #3D9199;
-    /* background-size: cover;
-    position: relative;
-    box-sizing: border-box; */
+#slideshow, .background-slide {
+    width: 100%;
+    background-color: #6D747E;
     filter: blur(3px);
     mix-blend-mode: luminosity;
 }
@@ -75,17 +79,12 @@
 }
 
 #slideshow img {
-    /* width: 100%;
-    filter: blur(3px);
-    mix-blend-mode: luminosity; */
+    width: 100%;
 }
 
 .presentbl {
     text-align: center;
-    display: block;
-    /* position: relative; */
-   /*  top: 20%;
-   left: 20%; */
+    display: flex;
     z-index: 10;
 }
 
@@ -230,7 +229,7 @@ a.btn-top:hover, a.btn-top:focus {
     /* text-decoration: none !important; */
 }
 
-.predict-wrap {
+/* .predict-wrap {
     margin: 0 auto;
     display: inline-block;
     position: relative;
@@ -905,3 +904,4 @@ a.btn-sud:hover {
 }
 
 
+ */
