@@ -51,6 +51,7 @@
 
 </head>
 <body>
+  <!-- fix navbar collapsing!!!! -->
   <nav class="navbar navbar-light navbar-fixed-top">
     <div class="navbar-header">
       <a class="navbar-brand navbar-text" rel="home" href="#top-block">Ilya Lilison</a>
@@ -75,42 +76,36 @@
     </div>
   </nav>
 
+  <!-- after pressing f12 twice apears horizontal scrollbar -->
   <div class="top-content" id="top-block">
-    <div id="slideshow">
-      <div class="background-slide"><img src="pic/top/pic1-min.jpg"></div>
-      <div class="background-slide"><img src="pic/top/pic2-min.jpg"></div>
-      <div class="background-slide"><img src="pic/top/pic3-min.jpg"></div>
-      <div class="background-slide"><img src="pic/top/pic4-min.jpg"></div>
-      <div class="background-slide"><img src="pic/top/pic5-min.jpg"></div>
-    </div>
-
     <div class="presentbl">
-      <div class="greetings">
-        <span class="ilya">LILISON</span>
-        <span class="dot">.</span>
-        <span class="intro">INTRO</span>
+      <div id="slideshow">
+        <div class="background-slide"><img src="pic/top/pic1-min.jpg"></div>
+        <div class="background-slide"><img src="pic/top/pic2-min.jpg"></div>
+        <div class="background-slide"><img src="pic/top/pic3-min.jpg"></div>
+        <div class="background-slide"><img src="pic/top/pic4-min.jpg"></div>
+        <div class="background-slide"><img src="pic/top/pic5-min.jpg"></div>
       </div>
 
-      <div class="greetingsInfo">
-        <span class="mail">email:</span>
-        <br>
-        <span class="place">ilyalilison@gmail.com</span>
-      </div>
+      <div id="text-wrap">
+        <div class="top-flex-block" id="greetings">
+          <span class="ilya">LILISON</span>
+          <span class="dot">.</span>
+          <span class="intro">INTRO</span>
+        </div>
 
-      <div class="present-text">
-        WOW WOW
-        <br>
-        I see you are not too lazy to open this page!
-        <br>
-        (btw I realize that it sucks, so I'm upgrading it in another branch :D (30.07.2018))
-        <br>
-        So while you are at it, let me tell you why I'm so cool and why you need an employee like me.
-      </div>
-      <div class="top-btn" id="mainButton">
-        <a href="#contact" class="btn-top">
-          Get contact!
-          <i class="fa fa-space-shuttle" aria-hidden="true"></i>
-        </a>
+        <div class="top-flex-block" id="present-text">
+          I see you are not too lazy to open this page!
+          <br>
+          So while you here, let me tell you why I'm so cool and why you need an employee like me.
+        </div>
+
+        <div class="top-flex-block" id="mainButton">
+          <a href="#contact" class="btn-top">
+            Get contact!
+            <i class="fa fa-space-shuttle" aria-hidden="true"></i>
+          </a>
+        </div>
       </div>
     </div>
   </div>

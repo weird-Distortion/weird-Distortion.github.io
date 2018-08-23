@@ -1,3 +1,14 @@
+:root {
+    --main-dark-gray-color: #353B40;
+    --neutral-gray-color: #6D747E;
+    --bright-gray-color: #C1BFBF;
+    --blueish-gray-color: #BFCBE4;
+    --golden-rain-color: #DDBB3B;
+}
+div {
+    background-color: var(--main-dark-gray-color);
+}
+
 #top-block:before,
 #about:before,
 #features:before,
@@ -14,16 +25,15 @@
 }
 
 html {
-    background: #353B40;
+    background: var(--main-dark-gray-color);
 }
 
 .navbar {
-    /* background-image: linear-gradient(to bottom, #353B40, #6D747E); */
-    background: #6D747E;
+    background: var(--neutral-gray-color);
 }
 
 .nav.navbar-nav.navbar-right li a {
-    color: #BFCBE4;
+    color: var(--blueish-gray-color);
     font-weight: bold;
     font-size: 20px;
     padding: 15px 15px;
@@ -33,12 +43,12 @@ html {
 }
 
 .nav.navbar-nav.navbar-right li a:hover {
-    color: #DDBB3B;
+    color: var(--golden-rain-color);
     transition: .4s ease-in-out;
 }
 
 .nav.navbar-nav.navbar-right li a:focus {
-    color: #6D747E;
+    color: var(--golden-rain-color);
     transition: .4s ease-in-out;
 }
 
@@ -48,7 +58,7 @@ html {
 }
 
 .navbar-header a:hover {
-    color: #DDBB3B;
+    color: var(--golden-rain-color);
     text-shadow: 0 0 1px black;
 }
 
@@ -57,35 +67,50 @@ html {
 }
 
 .top-content {
-    margin-top: 45px;
-    position: relative;
-}
-
-.d1, .container {
-    display: inline-block;
+    /* position: relative; */
 }
 
 #slideshow, .background-slide {
     width: 100%;
-    background-color: #6D747E;
-    filter: blur(3px);
+    background-color: var(--neutral-gray-color);
+    filter: blur(2px);
     mix-blend-mode: luminosity;
 }
 
-#slideshow, .presentbl,
-.greetingsInfo, .present-text,
-.top-btn {
+.background-slide {
+
+}
+
+#slideshow {
     position: absolute;
+    top: 45px;
 }
 
 #slideshow img {
     width: 100%;
 }
 
-.presentbl {
+.greetings {
+    width: 100px;
+    height: 100px;
+}
+
+.top-flex-block {
+    margin: 1em 1em;
+    background-color: blue;
+    max-height: 25%;
+    max-width: 100%;
+    font-size: 2vw;
+}
+
+#text-wrap {
     text-align: center;
     display: flex;
-    z-index: 10;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    /* width: 100%; */
+    margin-top: 7em;
 }
 
 span.ilya {
@@ -112,6 +137,9 @@ span.intro {
     text-shadow: 1px 1px 1px #000; */
 }
 
+
+
+
 /* VERTICAL LINE */
 .greetings:after {
     /* content: '';
@@ -124,18 +152,6 @@ span.intro {
     vertical-align: middle;
     margin-left: 15px;
     margin-right: 15px; */
-}
-
-
-
-span.mail {
-    /* font-family: 'Sequel', serif;
-    font-size: 20px;
-    color: #ffffff;
-    text-shadow: 1px 1px 1px #000;
-    float: left;
-    background-color: #ff404c;
-    padding: 5px; */
 }
 
 span.place {
