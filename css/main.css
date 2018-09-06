@@ -166,10 +166,10 @@ html {
 
 .prediction-block {
     display: flex;
+    margin-top: 3vw;
 }
 
 .prediction-content {
-    /* DAFUQ */
     width: 49%;
     margin: 5px 20px;
 }
@@ -193,73 +193,26 @@ html {
     margin: 1.5vw auto;
 }
 
-.yoda-pic  img {
-    /* width: 95%;
-    position: relative; */
+.suggestions-title {
+    font-size: 3vw;
+    color: var(--red-addition-color);
+    text-shadow: 0 0 1px #000;
+    line-height: 3vw;
 }
 
-.predict-second {
-    /* margin: 0 auto;
-    display: inline-block;
-    position: relative;
-    width: auto;
-    height: auto; */
-}
-
-.predict-second > div {
-    /* width: 49%;
-    text-align: left;
-    display: inline-block;
-    position: relative;
-    vertical-align: middle;
-    padding-top: 26px; */
-}
-
-.suggestions {
-    /* margin-left: 20px; */
-}
-
-#slideshow-pred img {
-   /*  width: 100%;
-   height: 100%;
-   position: relative;
-   display: block; */
-}
-
-#slideshow-pred .bg-pred {
-    /* position: relative;
-    box-sizing: border-box; */
-}
-
-.predict-second-right {
-    /* vertical-align: top !important; */
-}
-
-.predict-second-right > div {
-    /* text-align: center; */
-}
-
-.suggest-title {
-    /* font-size: 45px;
-    color: #ff404c;
-    text-shadow: 1px 1px 1px #000;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    line-height: 40px; */
-}
-
-.suggestions > span {
-    /* font-size: 25px;
+.suggestion {
+    font-size: 1.5vw;
     display: block;
-    line-height: 28px;
-    color: #1f6377;
-    text-shadow: 1px 1px 1px #000 */;
+    line-height: 2vw;
+    color: var(--blueish-gray-color);
+    text-shadow: 1px 1px 1px #000;
+    margin: 1vw auto;
 }
 
-.suggestions > span > a, a:hover {
-    /* font-size: 20px;
-    color: #cc147b;
-    text-decoration: none; */
+.suggestions span a, a:hover {
+    font-size: 1.5vw;
+    color: var(--golden-rain-color);
+    text-decoration: none;
 }
 
 
