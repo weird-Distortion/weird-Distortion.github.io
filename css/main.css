@@ -134,12 +134,13 @@ html {
     display: inline-block;
     box-shadow: 0 0 1px black;
     padding-top: 0.5em;
+    text-shadow: 1px 1px 1px black;
 }
 
 .fa-space-shuttle {
     font-size: 1em;
     padding: 5px;
-    text-shadow: 1px 1px 1px var(--red-addition-color);
+    text-shadow: 1px 1px 1px black;
 }
 
 .btn-contact:hover, .btn-contact:focus {
@@ -163,62 +164,38 @@ html {
     margin: auto;
 }
 
-.predict-first {
-    /* margin: 0 auto;
-    display: inline-block;
-    position: relative; */
+.prediction-block {
+    display: flex;
 }
 
-.predict-first > div {
-    /* width: 49%;
-    display: inline-block;
-    position: relative;
-    vertical-align: middle;
-    padding-top: 26px; */
+.prediction-content {
+    /* DAFUQ */
+    width: 49%;
+    margin: 5px 20px;
 }
 
-.predict-first-left {
-    /* vertical-align: top !important; */
-}
-
-.predicts-title {
-    /* margin-bottom: 50px;
-    padding-top: 20px; */
+.prediction-title {
+    margin-bottom: 10px;
 }
 
 .pred-title {
-    font-size: 50px;
-    color: #ff404c;
-    text-shadow: 1px 1px 1px #0e0e0e;
+    font-size: 4vw;
+    color: var(--red-addition-color);
+    text-shadow: 0 0 1px black;
 }
 
-.first-predict {
-    font-size: 25px;
-    color: #3D9199;
+.prediction {
+    font-size: 1.5vw;
+    color: var(--blueish-gray-color);
     text-shadow: 1px 1px 1px #0e0e0e;
     display: block;
-    line-height: 25px;
-}
-
-.second-predict {
-    font-size: 25px;
-    color: #3D9199;
-    text-shadow: 1px 1px 1px #0e0e0e;
-    display: block;
-    line-height: 25px;
-}
-
-.third-predict {
-    font-size: 25px;
-    color: #3D9199;
-    text-shadow: 1px 1px 1px #0e0e0e;
-    display: block;
-    line-height: 25px;
+    line-height: 2vw;
+    margin: 1.5vw auto;
 }
 
 .yoda-pic  img {
-    width: 95%;
-    position: relative;
+    /* width: 95%;
+    position: relative; */
 }
 
 .predict-second {
@@ -239,14 +216,14 @@ html {
 }
 
 .suggestions {
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 
 #slideshow-pred img {
-    /* width: 100%;
-    height: 100%; */
-    /* position: relative;
-    display: block; */
+   /*  width: 100%;
+   height: 100%;
+   position: relative;
+   display: block; */
 }
 
 #slideshow-pred .bg-pred {
@@ -259,31 +236,33 @@ html {
 }
 
 .predict-second-right > div {
-    text-align: center;
+    /* text-align: center; */
 }
 
 .suggest-title {
-    font-size: 45px;
+    /* font-size: 45px;
     color: #ff404c;
     text-shadow: 1px 1px 1px #000;
     margin-top: 30px;
     margin-bottom: 30px;
-    line-height: 40px;
+    line-height: 40px; */
 }
 
 .suggestions > span {
-    font-size: 25px;
+    /* font-size: 25px;
     display: block;
     line-height: 28px;
     color: #1f6377;
-    text-shadow: 1px 1px 1px #000;
+    text-shadow: 1px 1px 1px #000 */;
 }
 
 .suggestions > span > a, a:hover {
-    font-size: 20px;
+    /* font-size: 20px;
     color: #cc147b;
-    text-decoration: none;
+    text-decoration: none; */
 }
+
+
 
 /*
 .sud-content {
