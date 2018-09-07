@@ -22,18 +22,13 @@ html {
 .nav.navbar-nav.navbar-right li a {
     color: var(--blueish-gray-color);
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.5vw;
     padding: 15px 15px;
     text-shadow: 0 0 1px black;
-    transition: .4s ease-in-out;
     font-family: 'Ubuntu', sans-serif;
 }
 
-.nav.navbar-nav.navbar-right li a:hover {
-    color: var(--golden-rain-color);
-    transition: .4s ease-in-out;
-}
-
+.nav.navbar-nav.navbar-right li a:hover,
 .nav.navbar-nav.navbar-right li a:focus {
     color: var(--golden-rain-color);
     transition: .4s ease-in-out;
@@ -83,7 +78,6 @@ html {
     max-height: 25%;
     max-width: 100%;
     font-size: 2vw;
-    border-radius: 3px;
     z-index: 1;
     box-shadow: 0 0 1px black;
 }
@@ -124,7 +118,7 @@ html {
     line-height: 5vw;
 }
 
-.btn-contact {
+.btn-contact, .btn-contact:focus {
     font-weight: bold;
     color: var(--red-addition-color);
     height: 5vw;
@@ -133,8 +127,10 @@ html {
     background-color: var(--golden-button-color);
     display: inline-block;
     box-shadow: 0 0 1px black;
+    font-size: 1em;
     padding-top: 0.5em;
     text-shadow: 1px 1px 1px black;
+    text-decoration: none;
 }
 
 .fa-space-shuttle {
@@ -143,16 +139,15 @@ html {
     text-shadow: 1px 1px 1px black;
 }
 
-.btn-contact:hover, .btn-contact:focus {
-    color: #ffffff;
-    background-color: #ff404c;
+.btn-contact:hover {
+    font-size: 1em;
+    color: #fff;
+    background-color: var(--red-addition-color);
     transition: .8s ease-in-out;
     box-shadow: 1px 1px 1px #000;
     text-decoration: none;
     padding-top: 0.5em;
 }
-
-
 
 .predict-wrap {
     display: flex;
@@ -209,96 +204,66 @@ html {
     margin: 1vw auto;
 }
 
-.suggestions span a, a:hover {
+.suggestions span a:hover {
     font-size: 1.5vw;
     color: var(--golden-rain-color);
     text-decoration: none;
 }
 
-
-
-/*
 .sud-content {
-    margin: 20px auto;
-    width: 99%;
-    background-image: linear-gradient(to bottom, #E0FFFF, #00ff87);
-    box-shadow: 1px 1px 10px #000;
-    display: block;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 4vh 0;
+}
+
+.sud-wrap {
+    margin: auto;
+    width: 98%;
+    background-image: linear-gradient(to bottom, var(--red-addition-color), var(--golden-rain-color));
     text-align: center;
     border: 1px solid black;
-}
-
-.sud-content > div {
-    display: inline-block;
-}
-
-.sud-contact-text {
-    font-size: 45px;
-    color: #3D9199;
-    line-height: normal;
-    text-shadow: 1px 1px 1px #000;
-}
-
-.sud-contact-text > span {
-    float: none;
-    margin: 0 auto;
-    color: #ff404c;
-    font-weight: bold;
-    text-shadow: 1px 1px 5px #000;
-}
-
-.sud-avatar {
-    display: block;
-}
-
-.sud-avatar > img {
-    border-radius: 50%;
-    width: 250px;
-    margin: 30px;
-    box-shadow: 1px 1px 10px #000;
-
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 .sud-contact {
-    text-align: center;
-    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 65%;
+    align-items: center;
+    padding: 1vw 1vw;
 }
 
-a.btn-sud {
-    font-size: 15px;
-    font-weight: bold;
-    text-align: center;
-    color: #3D9199;
-    width: 340px;
-    margin: 30px;
-    text-transform: uppercase;
-    line-height: 50px;
-    height: 50px;
-    background-color: #ffffff;
-    display: inline-block;
-    box-shadow: 1px 1px 3px #ff0000;
-    transition: .8s ease-in-out;
+.sud-contact-text {
+    font-size: 4vw;
+    color: var(--blueish-gray-color);
+    line-height: normal;
+    text-shadow: 1px 1px 2px #000;
+    padding-top: 1vh;
 }
 
-.fa-space-shuttle {
-    padding: 5px;
-    text-shadow: 1px 1px 1px #ff0000;
+.sud-avatar {
+    width: 35%;
+    margin: auto;
 }
 
-a.btn-sud:hover {
-    color: #ffffff;
-    font-size: 15px;
-    background-color: #ff404c;
-    transition: .8s ease-in-out;
-    box-shadow: 1px 1px 1px #000;
+#sud-pic {
+    border-radius: 50%;
+    width: 15vw;
+    margin: 2vw;
+    box-shadow: 1px 1px 10px #000;
+
 }
 
-.sud-contact-btn a {
-    text-decoration: none !important;
+.sud-contact, .sud-contact div, .sud-avatar {
+    background: none;
 }
 
+
+
+
+
+/*
 .features-cases {
     display: inline-block;
     text-align: center;
