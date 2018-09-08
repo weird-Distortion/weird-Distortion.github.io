@@ -105,7 +105,7 @@ html {
 }
 
 #intro {
- color: var(--neutral-gray-color);
+   color: var(--neutral-gray-color);
 }
 
 #dot {
@@ -309,96 +309,49 @@ html {
     text-decoration: none;
 }
 
-
-
-/*
-.employer-benefits {
-    position: relative;
-    border-right: 6px solid #002a80;
-    padding: 40px 60px 50px;
-    text-align: center;
-    width: 48.717948717948715%
-}
-
-.employee-benefits {
-    position: relative;
-    padding: 40px 60px 50px 50px;
-    display: block;
+.profits-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: auto;
     text-align: center;
 }
 
-.profits-content {
-    margin-top: 25px;
-    margin-bottom: 50px;
-    font-size: 20px;
+.side-profits {
+    padding: 0 3vw;
+}
+
+#right-side-profits {
+    border-left: 0.5vw solid var(--golden-rain-color);
 }
 
 .profit {
-    font-size: 20px;
+    font-size: 1.6vw;
     text-align: left;
-    color: #000000;
-    padding-left: 30px;
-    margin: 30px 0;
-    position: relative;
-    max-width: 100%;
+    color: var(--blueish-gray-color);
+    text-shadow: 0 0 3px black;
+    padding: 0 1.5vw;
+    margin: 1.5vw 0;
 }
 
-.profit-eat {
-    display: inline-block;
-}
-
-.pict-profit::after {
-    content: '';
-    display: inline-block;
-    width: 90px;
-    height: 64px;
-    z-index: 10;
-    position: absolute;
-    right: 10%;
-    top: -20px;
-    background: no-repeat center center;
-}
-
-.profit.pict-profit::after {
-    background-image: url(../pic/profits/eat-min.png);
-    background-size: 90px 64px;
-}
-
-.profits-content .modname {
-    position: relative;
-    font-size: 70px;
+.modname {
+    font-size: 5vw;
     font-weight: bold;
-    margin-bottom: 40px;
-    margin-top: 10px;
-    text-shadow: 1px 1px 20px #3D9199;
-    color: #000;
-    line-height: 72px;
-}
-
-.span6 {
-    position: relative;
-}
-
-.profits1 {
-    min-height: 420px;
-}
-
-.profits2 {
-    min-height: 420px;
+    text-shadow: 0 0 10px black;
+    color: var(--golden-rain-color);
 }
 
 .profit i {
-    position: absolute;
-    left: 0;
-    top: -4px;
-    font-size: 22px;
-    text-align: left;
-    color: #000000;
+    font-size: 1.6vw;
+    color: var(--golden-rain-color);
     font-style: normal;
     font-weight: 900;
-    text-shadow: 1px 1px 20px #ff404c;
+    text-shadow: 1px 1px 1px black;
 }
 
+
+
+/*
 .bros-title {
     position: relative;
     text-align: center;
