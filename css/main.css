@@ -74,7 +74,7 @@ html {
 }
 
 .top-flex-block {
-    margin: 3vw 5vw;
+    margin: 1vw 5vw;
     max-height: 25%;
     max-width: 100%;
     font-size: 2vw;
@@ -105,7 +105,7 @@ html {
 }
 
 #intro {
-   color: var(--neutral-gray-color);
+ color: var(--neutral-gray-color);
 }
 
 #dot {
@@ -214,6 +214,10 @@ html {
     padding: 4vh 0;
 }
 
+#second-sud {
+    font-size: 3vw;
+}
+
 .sud-wrap {
     margin: auto;
     width: 98%;
@@ -248,6 +252,12 @@ html {
 
 .sud-contact, .sud-contact div, .sud-avatar {
     background: none;
+}
+
+#freaking-text {
+    font-weight: bold;
+    color: var(--red-addition-color);
+    text-shadow: 1px 1px 1px black;
 }
 
 #sud-pic {
@@ -422,6 +432,8 @@ html {
     font-size: 20px;
 }
 
+
+/*
 .more-cases {
     display: inline-block;
     text-align: center;
