@@ -105,7 +105,7 @@ html {
 }
 
 #intro {
-   color: var(--neutral-gray-color);
+ color: var(--neutral-gray-color);
 }
 
 #dot {
@@ -243,121 +243,75 @@ html {
 }
 
 .sud-avatar {
-    width: 35%;
     margin: auto;
-}
-
-#sud-pic {
-    border-radius: 50%;
-    width: 15vw;
-    margin: 2vw;
-    box-shadow: 1px 1px 10px #000;
-
 }
 
 .sud-contact, .sud-contact div, .sud-avatar {
     background: none;
 }
 
+#sud-pic {
+    border-radius: 50%;
+    width: 15vw;
+    box-shadow: 1px 1px 10px #000;
 
+}
+
+.features-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 98%;
+    margin: auto;
+}
+
+.feature {
+    width: 28vw;
+    height: 18vw;
+    box-shadow: 0 2px 23px 0 #000;
+    background-image: linear-gradient(to bottom, var(--bright-gray-color), var(--blueish-gray-color));
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 1.5vw auto;
+}
+
+.feature-text {
+    background: none;
+    width: 65%;
+    font-size: 1.5vw;
+    margin: auto;
+    padding: 0 1vw;
+}
+
+.feature-pic {
+    background-color: var(--golden-rain-color);
+    width: 35%;
+    display: flex;
+}
+
+.feature-pic img{
+    width: 100%;
+    height: auto;
+}
+
+.feature-pic-wrap {
+    margin: auto;
+    background: none;
+}
+
+.feature div b {
+    color: var(--red-addition-color);
+}
+
+.feature div a:hover {
+    text-decoration: none;
+}
 
 
 
 /*
-.features-cases {
-    display: inline-block;
-    text-align: center;
-    padding: 10px;
-}
-
-.feature {
-    margin: 20px;
-    padding-top: 10px;
-    display: inline-block;
-    vertical-align: middle;
-    width: 400px;
-    height: 230px;
-    box-shadow: 0 2px 23px 0 #000;
-    box-sizing: border-box;
-    padding-left: 160px;
-    padding-right: 20px;
-    line-height: normal;
-    position: relative;
-    margin-left: auto !important;
-    margin-bottom: 35px;
-    text-align: left;
-    background-image: linear-gradient(to bottom, #fff, #E0FFFF);
-
-}
-
-.feature::before {
-    content: '';
-    display: inline-block;
-    width: 140px;
-    height: 100%;
-    background-image: linear-gradient(to bottom, #14bbcc, #3d9199);
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.feature::after {
-    content: '';
-    display: inline-block;
-    width: 140px;
-    height: 100%;
-    z-index: 10;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background: no-repeat center center;
-}
-
-.feature.pblock1::after {
-    background-image: url(../pic/features/pic1.png);
-}
-
-.feature.pblock2::after {
-    background-image: url(../pic/features/pic2.png);
-}
-
-.feature.pblock3::after {
-    background-image: url(../pic/features/pic3.png);
-}
-
-.feature.pblock4::after {
-    background-image: url(../pic/features/pic4.png);
-}
-
-.feature.pblock5::after {
-    background-image: url(../pic/features/pic5.png);
-}
-
-.feature.pblock6::after {
-    background-image: url(../pic/features/pic6.png);
-}
-
-.fa-arrow-right:before {
-    content: "\f061";
-}
-
-.feature > div > b {
-    color: #ff404c;
-}
-
-.feature > div > a, a:hover {
-    text-decoration: none;
-    font-size: 20px;
-}
-
-.feature div {
-    font-size: 17px;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    line-height: normal;
-}
-
 .employer-benefits {
     position: relative;
     border-right: 6px solid #002a80;
