@@ -1351,7 +1351,7 @@ html {
 }
 
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
@@ -4499,7 +4499,6 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
     position: relative;
     min-height: 50px;
     margin-bottom: 20px;
-    border: 1px solid transparent
 }
 
 @media (min-width: 768px) {
@@ -4528,7 +4527,7 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
     overflow-y: auto
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px)  {
     .navbar-collapse {
         width: auto;
         border-top: 0;
@@ -4841,10 +4840,13 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
     /* margin-top: 15px;
     margin-bottom: 15px */
     color: #ff404c;
-    text-shadow: 1px 1px 1px #000;
+    text-shadow: 0 0 1px #000;
     width: auto;
     position: relative;
     z-index: 1300;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
 }
 
 @media (min-width: 768px) {
