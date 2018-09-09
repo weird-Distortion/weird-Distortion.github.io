@@ -7,7 +7,7 @@
     --red-addition-color: #ff404c;
     --golden-button-color: #FFDD5E;
 }
-div {
+div, footer {
     background-color: var(--main-dark-gray-color);
 }
 
@@ -73,8 +73,8 @@ html {
 }
 
 .greetings {
-    width: 100px;
-    height: 100px;
+    width: 10vw;
+    height: 10vw;
 }
 
 .top-flex-block {
@@ -96,7 +96,7 @@ html {
     flex-wrap: nowrap;
     align-items: center;
     flex-direction: column;
-    margin-top: 7vw;
+    margin-top: 10vh;
 }
 
 .name-intro {
@@ -165,7 +165,7 @@ html {
 
 .prediction-block {
     display: flex;
-    margin-top: 3vw;
+    margin-top: 10vh;
 }
 
 .prediction-content {
@@ -456,53 +456,39 @@ html {
     content: "☎";
 }
 
+#contact-info {
+    font-size: 3vw;
+}
+
 #contact-mail::before {
     content: "✉";
 }
 
 
 
-/*
-.social-links a > img {
-    width: 35px;
-    height: 35px;
-    vertical-align: middle;
-    margin: 5px;
-    border-radius: 25%;
-    box-shadow: 1px 1px 10px #000;
+
+.footer-flex-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+    margin: auto 1vw;
+    justify-content: space-around;
+    width: 99%;
+    padding: 1vw 0;
 }
 
-.meta-box {
-    position: relative;
+.soc-net img{
+    margin: auto 1vw;
+    width: 5vw;
 }
 
-.meta-box > div {
-    display: inline-block;
-    line-height: 60px;
-}
-
-.copyring {
-    float: left;
-}
-
-.name-f {
-    font-size: 20px;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px #ff404b;
-}
-
-.f-year {
-    float: right;
-}
-
-.social-links {
-    padding: 0 30% 0 30%;
+.footer-text {
+    color: black;
+    font-size: 1.4vw;
+    margin: auto 0;
 }
 
 #footer {
-    background-image: linear-gradient(to bottom, #E0FFFF, #3D9199);
-    border: 1px solid #000;
+    border-top: 1px solid #000;
 }
-
-
- */
