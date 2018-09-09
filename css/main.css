@@ -264,7 +264,7 @@ html {
     text-shadow: 1px 1px 1px black;
 }
 
-#sud-pic {
+.sud-pic {
     border-radius: 50%;
     width: 15vw;
     box-shadow: 1px 1px 10px #000;
@@ -429,97 +429,40 @@ html {
     height: auto;
 }
 
-
-
 .gmap-content iframe {
     width: 100%;
     height: 450px;
 }
 
-#map {
-    width: 99%;
+#contact-pic {
+    width: 20vw;
 }
 
-#map iframe {
-    width: 100%;
-    height: auto;
-}
-
-/*
-.contact-content {
-    margin: 20px auto;
-    width: 99%;
-    box-shadow: 1px 1px 10px #000;
-    display: block;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-    background-image: linear-gradient(to bottom, #E0FFFF, #3D9199);
-    border: 1px solid #000;
-}
-
-.contact-content > div {
-    display: inline-block;
-}
-
-.contact-text {
-    font-size: 45px;
-    color: #3D9199;
-    line-height: normal;
-    text-shadow: 1px 1px 1px #000;
-}
-
-.contact-text > span {
-    float: none;
-    margin: 0 auto;
-    color: #ff404c;
+.contactme {
+    color: var(--blueish-gray-color);
+    font-synthesis:
     font-weight: bold;
-    text-shadow: 1px 1px 10px #000;
+    text-shadow: 2px 2px 5px black;
 }
 
-.contact-avatar {
-    display: block;
-}
-
-.contact-avatar > img {
-    border-radius: 50%;
-    width: 250px;
-    margin: 30px;
-    box-shadow: 1px 1px 10px #000;
-
-}
-
-.contact {
-    text-align: center;
-    vertical-align: middle;
-}
-
-.contact-text > span > a, a:hover {
-    font-size: 35px;
-    color: #0e90d2;
-    text-decoration: underline;
-}
-
-#contact-mail {
-    color: #ff404c;
-    text-shadow: 1px 1px 5px #000;
-}
-
-#contact-phone {
-    color: #ff404c;
-    text-shadow: 1px 1px 5px #000;
+#contact-mail, #contact-phone,
+#contact-phone::before,
+#contact-mail::before {
+    color: var(--red-addition-color);
+    text-shadow: 1px 1px 5px #000
 }
 
 #contact-phone::before {
     content: "☎";
-    color: #ff404c;
 }
 
 #contact-mail::before {
     content: "✉";
-    color: #ff404c;
 }
 
+
+
+/*
 .social-links a > img {
     width: 35px;
     height: 35px;
