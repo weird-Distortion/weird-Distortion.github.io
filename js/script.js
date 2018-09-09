@@ -1,4 +1,4 @@
-$('.expert-list ul').slick({
+/*$('.expert-list ul').slick({
     slidesToShow: 3,
     slidesToScroll: 3,
     autoplay: false,
@@ -37,3 +37,4 @@ $('.expert-list ul').slick({
 });
 
 
+*/
