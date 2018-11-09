@@ -464,31 +464,14 @@ html {
     content: "✉";
 }
 
-
-
-
-.footer-flex-wrap {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    text-align: center;
-    margin: auto 1vw;
-    justify-content: space-around;
-    width: 99%;
-    padding: 1vw 0;
+.fb-ic, .li-ic, .gi-ic {
+    margin: 0.5em 1em;
 }
 
-.soc-net img{
-    margin: auto 1vw;
-    width: 5vw;
-}
-
-.footer-text {
-    color: black;
-    font-size: 1.4vw;
-    margin: auto 0;
-}
-
-#footer {
+.page-footer {
     border-top: 1px solid #000;
+}
+
+#footer-icons {
+    background-color: rgba(0,0,0,.2)
 }
