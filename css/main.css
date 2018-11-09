@@ -7,6 +7,10 @@
     --red-addition-color: #ff404c;
     --golden-button-color: #FFDD5E;
 }
+
+body {
+    font-family: 'Ubuntu', sans-serif !important;
+}
 div, footer {
     background-color: var(--main-dark-gray-color);
 }
@@ -25,7 +29,6 @@ html {
     font-size: 1.5vw;
     padding: 15px 15px;
     text-shadow: 0 0 1px black;
-    font-family: 'Ubuntu', sans-serif;
 }
 
 .nav.navbar-nav.navbar-right li a:hover,

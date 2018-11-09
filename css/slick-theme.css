@@ -53,7 +53,7 @@
 .slick-next:before {
     font-family: 'slick', serif;
     font-size: 4vw;
-    line-height: 1;
+    line-height: 0.5;
     color: #002a80;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
